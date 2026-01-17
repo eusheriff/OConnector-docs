@@ -1,30 +1,34 @@
-# OConnector Technology | Engineering Portfolio
+# OConnector Core Platform
 
-> **Cloud, Big Data & AI Engineering**
-> [https://oconnector.tech](https://oconnector.tech)
+The **central orchestration platform** of the OConnector ecosystem, responsible for multi-tenancy, service integration, event orchestration, and governance across all business modules.
 
-## 📋 Overview
-Technical documentation for the OConnector Technology landing page and ecosystem. This repository demonstrates the engineering standards, architecture decisions, and performance metrics achieved in the production deployment.
+## Overview
+OConnector Core acts as the **architectural backbone** connecting AI bots, intelligent inbox, POS, sales automation, and analytics into a **cloud-native, serverless, and scalable SaaS ecosystem**.
 
-## 🚀 Live Production Status
-- **URL**: [oconnector.tech](https://oconnector.tech)
-- **Deployment Target**: Cloudflare Pages (Edge Network)
-- **Framework**: Next.js 15 (Static Export)
-- **Styling**: TailwindCSS + Framer Motion
+## Key Responsibilities
+- Authentication and multi-tenancy management
+- Service and event orchestration
+- Integration between ecosystem modules (bots, inbox, POS, seller)
+- Data governance and operational control
+- Observability and monitoring
 
-## 💎 Key Engineering Achievements
-| Metric | Score | Note |
-|:-------|:-----:|:-----|
-| **Performance** | **98/100** | Optimized LCP via Dynamic Imports & Edge caching |
-| **SEO** | **100/100** | Full JSON-LD Schema, Semantic HTML, OpenGraph |
-| **Accessibility** | **93/100** | WCAG 2.1 AA Compliant (ARIA coverage) |
-| **Security** | **A+** | Strict CSP, HSTS, Permissions-Policy implemented |
+## Architecture
+- Serverless multi-tenant architecture
+- Event-driven communication
+- Low latency (<200ms)
+- High availability (~99.9%)
 
-## 📚 Documentation Map
-- [ARCHITECTURE.md](./ARCHITECTURE.md) - Deep dive into the Edge-First architecture and Tech Stack.
-- [AUDIT_REPORT.md](./AUDIT_REPORT.md) - Full technical audit logs and performance breakdowns.
-- [CHANGELOG.md](./CHANGELOG.md) - Engineering log of recent improvements and features.
+## Tech Stack
+- Backend: TypeScript / Node.js
+- Cloud: Cloudflare Workers, KV, R2
+- Data: PostgreSQL / KV
+- Observability: Structured logs and metrics
+- Integrations: Internal APIs across the ecosystem
 
----
-**Founder & Lead Engineer:** Sheriff Gomes
-*(c) 2026 OConnector Technology*
+## Business Impact
+- ~70% infrastructure cost reduction
+- Foundation for multiple integrated SaaS products
+- Horizontal scalability without dedicated servers
+
+## Status
+Production-ready (private and commercial use).
