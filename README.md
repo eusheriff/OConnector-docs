@@ -1,34 +1,36 @@
 # OConnector Core Platform
 
-The **central orchestration platform** of the OConnector ecosystem, responsible for multi-tenancy, service integration, event orchestration, and governance across all business modules.
+🌐 Live Platform  
+https://oconnector.tech
 
 ## Overview
-OConnector Core acts as the **architectural backbone** connecting AI bots, intelligent inbox, POS, sales automation, and analytics into a **cloud-native, serverless, and scalable SaaS ecosystem**.
+OConnector is the **core platform** of the OConnector ecosystem, responsible for **multi-tenant orchestration, integrations, events, and governance** across multiple SaaS products.
+
+It provides the architectural foundation that connects AI bots, intelligent inbox, POS, sales automation, and analytics into a **single cloud-native ecosystem**.
 
 ## Key Responsibilities
-- Authentication and multi-tenancy management
-- Service and event orchestration
-- Integration between ecosystem modules (bots, inbox, POS, seller)
-- Data governance and operational control
-- Observability and monitoring
+- Multi-tenant authentication and access control
+- Service orchestration and internal APIs
+- Event-driven communication between modules
+- Data governance and operational observability
+- Integration layer for AI and business systems
 
 ## Architecture
-- Serverless multi-tenant architecture
-- Event-driven communication
-- Low latency (<200ms)
-- High availability (~99.9%)
+- Serverless, cloud-native design
+- Event-driven and modular architecture
+- Horizontal scalability with low operational overhead
+- Designed for SaaS and B2B platforms
 
 ## Tech Stack
 - Backend: TypeScript / Node.js
-- Cloud: Cloudflare Workers, KV, R2
-- Data: PostgreSQL / KV
+- Cloud: Serverless runtime (Cloudflare Workers)
+- Storage: KV, object storage, relational DB
 - Observability: Structured logs and metrics
-- Integrations: Internal APIs across the ecosystem
 
-## Business Impact
-- ~70% infrastructure cost reduction
-- Foundation for multiple integrated SaaS products
-- Horizontal scalability without dedicated servers
+## Impact
+- ~70% infrastructure cost reduction vs traditional VM-based setups
+- Foundation for multiple production SaaS products
+- High availability and low-latency architecture
 
 ## Status
-Production-ready (private and commercial use).
+Production (commercial and internal use).
